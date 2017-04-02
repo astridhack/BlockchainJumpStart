@@ -14,8 +14,9 @@ contract License {
     License[] public Licenses;
     mapping (uint => User[]) private licenseUsers;
     
-    function addLicense(string licenseName, uint allowedUsers ) returns (uint licenseId)
+    function AddLicense(string licenseName, uint allowedUsers ) returns (uint licenseId)
     {
+        licenseId = Licenses.length;
         Licenses.push(License(msg.sender,licenseName,allowedUsers));
     }
     
@@ -24,28 +25,26 @@ contract License {
         _;
     }
 
-    function addUserLicense(uint licenseId, address newUser) licenseOwnerOnly (licenseId) returns (bool success)
+    function AddUserLicense(uint licenseId, address newUser) licenseOwnerOnly (licenseId) returns (bool success)
     {
         User[] u = licenseUsers[licenseId];
         License l = Licenses[licenseId];
         if (u.length < l.numberOfUsers)
         {
             u.push(User(newUser));
-            return true;
+            success = true;
         }
         else
-        {
-            return false;
-        }
+            success = false;
     }
     
-    function UsedLicenses(uint licenseId) returns (uint numberOfLicensesUsed)
+    function UsedLicenses(uint licenseId) constant returns (uint numberOfLicensesUsed)
     {
         User[] u = licenseUsers[licenseId];
-        return u.length;
+        numberOfLicensesUsed = u.length;
     }
     
-    function AvailableLicenses(string licenseName) returns (uint numberOfLicensesLeft)
+    function AvailableLicenses(string licenseName) constant returns (uint numberOfLicensesLeft)
     {
         uint numOfLicensedUsers;
         uint numOfUserLicenses;
@@ -56,7 +55,7 @@ contract License {
                 break;
         }
         if (numOfUserLicenses > 0)
-            return numOfUserLicenses - numOfLicensedUsers;
+            numberOfLicensesLeft = numOfUserLicenses - numOfLicensedUsers;
         else
             throw;
     }
