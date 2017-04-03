@@ -1,6 +1,6 @@
   # Blockchain JumpStart
 
-This is a tutorial for the Blockchain JumpStart hands-on lab. It uses an Ethereum private blockchain network deployed on Azure. You can deploy your own Ethereum network using [this](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-blockchain.azure-blockchain-service) walkthrough. 
+This is a tutorial for the Blockchain JumpStart hands-on lab. It uses an Ethereum private blockchain network deployed on Azure.
 
 This hands-on lab consist of the following steps
 1. [Connect to the Azure Ethereum Enterprisee Consortium Network](/Tutorials/Azure%20Ethereum%20Network.md)
