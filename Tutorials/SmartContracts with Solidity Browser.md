@@ -1,6 +1,9 @@
 ## Working with Smart Contracts
 
 Once you have an Ethereum account set up with some Ether, you can try deploying and interacting with smart contracts on your private blockchain. For this you can use the Browser Solidity project, which integrates with Metamask and allows you to write, deploy and use smart contracts directly in your browser.
+
+
+### Open Solidity browser and create a Smart Contract
 ```
 In Chrome navigate to https://ethereum.github.io/browser-solidity/ and in the upper left click "New File"
 ```
@@ -12,6 +15,8 @@ Copy and paste this code into the Solidity editor, and on the right, you should 
 
 ![](../Images/Deploy%20contract.png)
 
+
+### Deploy the Smart Contract
 ```
 To deploy the contract to the blockchain Click on the red [Create] button under the "License" contract 
 section on the far right.
@@ -30,6 +35,8 @@ On the right, you will see the message "Waiting for transaction to be mined..." 
 Copy the contract address and save this on your computer for example in a text file using notepad.
 ``` 
 
+
+### Use the Smart Contract
 ![](../Images/Add%20license.png)
 
 You can add a license by sending a transaction to the contract function. To add a license named “JumpStart” with 20 user licenses
