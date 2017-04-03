@@ -1,14 +1,20 @@
-  # Blockchain JumpStart
+# Blockchain JumpStart
 
-This is a tutorial for the Blockchain JumpStart hands-on lab. It uses an Ethereum private blockchain network deployed on Azure.
+This is a repository for the materials used in the Blockchain JumpStart. 
 
-This hands-on lab consist of the following steps
+#### Hands-on lab
+The Blockchain JumpStart hands-on lab uses an Ethereum private blockchain network deployed on Azure. The lab consist of the following steps:
 1. [Connect to the Azure Ethereum Enterprisee Consortium Network](/Tutorials/Azure%20Ethereum%20Network.md)
 2. [Install MetaMask, create a blockchain account and intiate your account with some Ether](/Tutorials/MetaMask%20and%20Accounts.md)
 3. [Use the Solidity browser to create, deploy and use a Smart Contract](/Tutorials/SmartContracts%20with%20Solidity%20Browser.md)
 
+
+#### Exercises
+The templates used in the different exercises can be found here:
+* [Action plan](/Templates/Action%20plan.pptx)
+
 ---
-More information
+More information on blockchain and Azure blockchain as a Service
 
 * __Watch the learning videos on Microsoft Virtual Academy__
 There is a complete series of videos on how to build blockchain applications for Azure, see https://mva.microsoft.com/en-US/training-courses/microsoft-blockchain-as-a-service-17104. 
