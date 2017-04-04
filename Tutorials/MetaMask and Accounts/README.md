@@ -4,18 +4,22 @@ To create an account on the network you can use MetaMask, a Chrome extension tha
 ### Install MetaMask and connect to the Ethereum network
 
 ```
-To install the extension Open Chrome and go to Customize and control Google Chrome (Overflow button)
+To install the extension Open Chrome and 
+go to Customize and control Google Chrome (Overflow button)
 then select More Tools; Extensions
 ```
 ![](../Images/Chrome%20Extensions%20menu.png)
 ```
-Select [Get More Extensions] and search for MetaMask. Select[ADD TO CHROME] to install the extension
+Select [Get More Extensions] and search for MetaMask. 
+Select[ADD TO CHROME] to install the extension
 ```
 ![](../Images/Add%20MetaMask.png)
 
 Once installed, open MetaMask to create a new vault. By default, the vault will be connected to the Ropsten Test Network with a new Account. You will need to change this to connect to the deployed private consortium network, specifically to the load balancer in front of the transaction nodes that has an RPC endpoint at port 8545. The address is http://jumpstartblockchain.westeurope.cloudapp.azure.com:8545
 ```
-Select Custom RPC in the Network list and Enter the network address of the Consortium Network and click [Save].
+Select Custom RPC in the Network list and 
+enter the network address of the Consortium Network and 
+click [Save].
 ```
 
 ![](../Images/MetaMask%20add%20custom%20network.png)
