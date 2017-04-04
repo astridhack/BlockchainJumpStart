@@ -5,7 +5,8 @@ Once you have an Ethereum account set up with some Ether, you can try deploying 
 
 ### Open Solidity browser and create a Smart Contract
 ```
-In Chrome navigate to https://ethereum.github.io/browser-solidity/ and in the upper left click "New File"
+In Chrome navigate to https://ethereum.github.io/browser-solidity/ 
+and in the upper left click "New File"
 ```
 
  ![](../Images/New%20File.png)
@@ -18,8 +19,8 @@ Copy and paste this code into the Solidity editor, and on the right, you should 
 
 ### Deploy the Smart Contract
 ```
-To deploy the contract to the blockchain Click on the red [Create] button under the "License" contract 
-section on the far right.
+To deploy the contract to the blockchain Click on the red [Create] button 
+under the "License" contract section on the far right.
 ```
 Metamask will ask you to confirm the transaction - deploying a new contract to the blockchain costs gas, which is payable in Ether from your account:
 
@@ -32,7 +33,8 @@ Accept the transaction.
 On the right, you will see the message "Waiting for transaction to be mined..." Once the contract creation transaction is mined and included in your blockchain, the interface will show you the address of your new contract and allow you to interact with it.
 
 ```
-Copy the contract address and save this on your computer for example in a text file using notepad.
+Copy the contract address and save this on your computer
+for example in a text file using notepad.
 ``` 
 
 
@@ -41,11 +43,13 @@ Copy the contract address and save this on your computer for example in a text f
 
 You can add a license by sending a transaction to the contract function. To add a license named “JumpStart” with 20 user licenses
 ```
-enter the data in the textbox and click the red [AddLicense] button. Accept the transaction from Metamask
+enter the data in the textbox and click the red [AddLicense] button. 
+Accept the transaction from Metamask
 ``` 
 After waiting for the transaction to be mined, you will get back data on the transaction. To view the created license 
 ```
-enter a license id in the textbox (0 for the first license) and click on the blue “Licenses" button
+enter a license id in the textbox (0 for the first license) and 
+click on the blue “Licenses" button
 ```
 The display show the license information:
 
@@ -53,7 +57,8 @@ The display show the license information:
 
 The "licenseOwnerOnly" modifier is designed to ensure that only the owner account will be able to change the user licenses using the "AddUserLicense" function. 
 ```
-Switch your active Ethereum account in Metamask to a different account than the one used to create the transaction. 
+Switch your active Ethereum account in Metamask to a different account 
+than the one used to create the transaction. 
 Ensure that this account has some Ether so we can send transactions from it.
 ```
 
@@ -61,7 +66,8 @@ Ensure that this account has some Ether so we can send transactions from it.
  
 Now add a new user license. The address must be a valid account id, you can copy the account id from MetaMask.
 ```
-In the addUserLicense enter the data in the textbox and click the red [addUserLicense] button.
+In the addUserLicense enter the data in the textbox and 
+click the red [addUserLicense] button.
 ```
 
 <img src="../Images/addUserLicense.png" width="600" />
@@ -69,7 +75,8 @@ In the addUserLicense enter the data in the textbox and click the red [addUserLi
 >This will result in an error because the Account used to send the transaction is not the owner of the License.
 In MetaMask switch your account back. 
 ```
-Click the red [AddUserLicense] button again. Accept the transaction in MetaMask.
+Click the red [AddUserLicense] button again. 
+Accept the transaction in MetaMask.
 ```
 This time the transaction is allowed and will be mined. You can check this by using the UsedLicenses or AvailableLicenses functions.
 
