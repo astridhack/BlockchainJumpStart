@@ -73,6 +73,7 @@ click the red [addUserLicense] button.
 <img src="../Images/addUserLicense.png" width="600" />
 
 >This will result in an error because the Account used to send the transaction is not the owner of the License.
+
 In MetaMask switch your account back. 
 ```
 Click the red [AddUserLicense] button again. 
