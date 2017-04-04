@@ -9,8 +9,8 @@ The [lab description](Tutorials/README.md) can be found here.
 
 
 #### Exercises
-The templates used in the different exercises can be found here:
-* [Action plan](/Templates/Action%20plan.pptx)
+To explore scenarios, use cases and envision next steps we supply some guidance and [templates](Templates/) here.
+
 
 ---
 More information on blockchain and Azure blockchain as a Service
