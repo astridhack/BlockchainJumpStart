@@ -4,8 +4,8 @@ The Blockchain JumpStart hands-on lab uses an Ethereum private blockchain networ
 
 The lab consist of the following steps:
 1. [Connect to the Azure Ethereum Enterprise Consortium Network](Azure%20Ethereum%20Network/)
-2. [Install MetaMask, create a blockchain account and intiate your account with some Ether](MetaMask%20and%20Accounts/README.md)
-3. [Use the Solidity browser to create, deploy and use a Smart Contract](SmartContracts%20with%20Solidity%20Browser/README.md)
+2. [Install MetaMask, create a blockchain account and intiate your account with some Ether](MetaMask%20and%20Accounts/)
+3. [Use the Solidity browser to create, deploy and use a Smart Contract](SmartContracts%20with%20Solidity%20Browser/)
 
 The setup of the different components that are used in the lab is shown in the below diagram
 
@@ -21,7 +21,7 @@ You need an Azure subcription to do so, see [subscription options](#subscription
 
 If you do not have an Azure subscription yet there are a couple of options available: 
 
-1. Create a free trial Account, go to https://azure.microsoft.com/free/ and follow the steps. This gives you a €170 credit to try any Azure services for 30 days. 
+1. Create a free trial Account, go to [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/) and follow the steps. This gives you a €170 credit to try any Azure services for 30 days. 
 
 2. Join the Dev Essentials program through https://www.visualstudio.com/dev-essentials/ . This gives you $25/month Azure credit for 12 months, free development tools like a Visual Studio Team Services account with five users and training resources through a 3-month subscription on Pluralsight, WintellectNOW, Linux Academy and access to selected on-demand Xamarin University courses.
 
