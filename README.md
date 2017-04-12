@@ -13,6 +13,9 @@ To explore scenarios, use cases and envision next steps we supply some guidance 
 
 
 ---
+
+---
+
 More information on blockchain and Azure blockchain as a Service
 
 * __Watch the learning videos on Microsoft Virtual Academy__
