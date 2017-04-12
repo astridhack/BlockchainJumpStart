@@ -1,12 +1,14 @@
 ### Templates and Guidance
 
 #### Business justification
-To get a clear understanding of the business justification for a specific BlockChain scenario define
+To get a clear understanding of the business justification for a specific BlockChain scenario
+
+You can use this [template](Scenario%20and%20business%20justification.pptx) to define
+
 * What are the key drivers?
 * What are the key investment?
 * What are the key benefits? 
 
-You can use this [template](Scenario%20and%20business%20justification.pptx)
 
 #### Action plan
 
