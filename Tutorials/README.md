@@ -15,4 +15,4 @@ The setup of the different components that are used in the lab is shown in the b
 
 #### Azure Ethereum Blockchain Network
 One of the Azure Blockchain as a Service offerings is the Enterprise Ethereum Consortium Network. To deploy your own Ethereum __development__ network you can use [this](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-blockchain.azure-blockchain-service) walkthrough. If you want to deploy a __multi member__ test Ethereum Network follow [this](https://azure.microsoft.com/en-us/blog/multi-member-consortium-blockchain-networks-on-azure/) walkthrough.
-You need an Azure subcription to do so, see [subscription options](Azure%20Subscription) if you don't have a subscription yet.
+You need an Azure subcription to do so, see [subscription options](Azure%20Subscription/) if you don't have a subscription yet.
