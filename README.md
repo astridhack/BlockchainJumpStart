@@ -1,4 +1,4 @@
-# Blockchain JumpStart
+## Blockchain JumpStart
 
 This is a repository for the materials used in the Blockchain JumpStart. 
 
@@ -14,9 +14,8 @@ To explore scenarios, use cases and envision next steps we supply some guidance 
 
 ---
 
----
 
-More information on blockchain and Azure blockchain as a Service
+#### More information on blockchain and Azure blockchain as a Service
 
 * __Watch the learning videos on Microsoft Virtual Academy__
 There is a complete series of videos on how to build blockchain applications for Azure, see [https://mva.microsoft.com/en-US/training-courses/microsoft-blockchain-as-a-service-17104](https://mva.microsoft.com/en-US/training-courses/microsoft-blockchain-as-a-service-17104). 
